@@ -30,27 +30,52 @@ In order to install all the dependencies and run the application, please follow 
 
 	composer install
 
-3. Install NPM:-
+3. Copy the Environment File:-
 
-	npm install && npm run dev
+	Laravel projects typically have a .env.example file that contains configuration settings. Create a copy of this file and rename it to .env using below command:
 
-	npm run build
+	cp .env.example .env
 
 4. Generate an Application Key:-
 
 	php artisan key:generate
 
-5. Run Database Migrations:-
+5. Configure the Database:-
+
+	Open the .env file in a text editor and configure your database settings. You will need to set values as below:
+
+	DB_CONNECTION=mysql
+
+	DB_HOST=127.0.0.1
+
+	DB_PORT=3306
+
+	DB_DATABASE=provisapp
+
+	DB_USERNAME=root
+
+	DB_PASSWORD=
+
+
+6. Install NPM:-
+
+	npm install && npm run dev
+
+	npm run build
+
+7. Run Database Migrations:-
 
 	php artisan migrate
 
-6. Run Database Seeders:-
+8. Run Database Seeders:-
 
 	php artisan db:seed
 
-7. Serve Laravel Project:-
+9. Serve Laravel Project:-
 
 	php artisan serve
+
+	This command starts a local development server, and you can access your project in your web browser by visiting the URL provided (usually http://127.0.0.1:8000/).
 
 
 
