@@ -7,10 +7,16 @@
 This app is build using below mentioned technology stack:-
 
 Laravel - 10.10 Version
+
 PHP - 8.2.6 Version
+
 MySQL - 8.0.31 Version
+
 Node - 18.15.0 Version
+
 NPM - 9.5.0 Version
+
+
 
 ## Steps To Install And Run The Application
 
@@ -20,23 +26,32 @@ In order to install all the dependencies and run the application, please follow 
 git clone https://github.com/sandeshpkar/provis-app.git
 
 2. Install Composer Dependencies:-
+
 composer install
 
 3. Install NPM:-
+
 npm install && npm run dev
+
 npm run build
 
 4. Generate an Application Key:-
+
 php artisan key:generate
 
 5. Run Database Migrations:-
+
 php artisan migrate
 
 6. Run Database Seeders:-
+
 php artisan db:seed
 
 7. Serve Laravel Project:-
+
 php artisan serve
+
+
 
 ## App Login Details
 
