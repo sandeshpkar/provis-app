@@ -59,7 +59,9 @@ In order to install all the dependencies and run the application, please follow 
 Please note that seeders will generate two dummy users as below. You can use any of the user credential to login to the application:-
 
 1)  email: sandesh@example.com
+
 	password: 12345678
 
 2)  email: rohit@example.com
+
 	password: 12345678
