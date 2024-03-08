@@ -23,33 +23,34 @@ NPM - 9.5.0 Version
 In order to install all the dependencies and run the application, please follow below mentioned steps:-
 
 1. Clone Github Repo:-
-git clone https://github.com/sandeshpkar/provis-app.git
+
+	git clone https://github.com/sandeshpkar/provis-app.git
 
 2. Install Composer Dependencies:-
 
-composer install
+	composer install
 
 3. Install NPM:-
 
-npm install && npm run dev
+	npm install && npm run dev
 
-npm run build
+	npm run build
 
 4. Generate an Application Key:-
 
-php artisan key:generate
+	php artisan key:generate
 
 5. Run Database Migrations:-
 
-php artisan migrate
+	php artisan migrate
 
 6. Run Database Seeders:-
 
-php artisan db:seed
+	php artisan db:seed
 
 7. Serve Laravel Project:-
 
-php artisan serve
+	php artisan serve
 
 
 
