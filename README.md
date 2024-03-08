@@ -56,6 +56,11 @@ In order to install all the dependencies and run the application, please follow 
 
 	DB_PASSWORD=
 
+	SESSION_DRIVER=database
+
+
+	Please note that, we have changed session driver from 'file' to 'database'.
+
 
 6. Install NPM:-
 
